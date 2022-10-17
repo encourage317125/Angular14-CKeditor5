@@ -1,5 +1,5 @@
 {
-  "name": "first-angular-app",
+  "name": "my-angular-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -18,7 +18,10 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
-    "@contentful/rich-text-html-renderer": "^15.13.1",
+    "@ckeditor/ckeditor5-angular": "^4.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^35.2.1",
+    "@ckeditor/ckeditor5-build-decoupled-document": "^35.2.1",
+    "@ckeditor/ckeditor5-build-inline": "^35.2.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -27,6 +30,9 @@
     "@angular-devkit/build-angular": "^14.2.6",
     "@angular/cli": "~14.2.6",
     "@angular/compiler-cli": "^14.2.0",
+    "@types/ckeditor__ckeditor5-build-classic": "^29.0.1",
+    "@types/ckeditor__ckeditor5-build-decoupled-document": "^29.1.1",
+    "@types/ckeditor__ckeditor5-build-inline": "^29.0.0",
     "@types/jasmine": "~4.0.0",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
